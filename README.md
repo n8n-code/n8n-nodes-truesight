@@ -55,12 +55,12 @@ That's it. No configuration files. No code. It just works.
 
 | Resource | Operations |
 |----------|------------|
-| Actions | POST Triggers a new collect on a specific device., POST Triggers a new discovery on a specific device., POST Sends a 'Reinitialize KM' command., POST Removes a specific instance from the monitoring environment., POST Resets the Error Count parameter. |
-| Applications | GET Gets summarized information about all monitored applications., GET Gets detailed information for a specific application. |
-| Devices | GET Gets the Monitors for a specific device., GET Gets summarized information about all monitored devices., GET Gets overall information for all devices., GET Gets detailed information about a specific device., GET Gets detailed information about an Agent., GET Gets a list of all the devices monitored by an Agent., GET Gets data history for a parameter of a specific device over a given period., GET Gets the energy usage for a specific device and a given period., GET Gets the heating margin values for each monitored device, when available., GET Searches devices by name, model, manufacturer or serial number. |
-| Groups | GET Gets all group summaries., GET Gets detailed information about a specific group., PUT Updates the values of the energy footprint parameter for a specific group. |
-| Historical Data | GET Gets historical data for a specific group, application or service. |
-| Services | GET Gets summarized information about all monitored services., GET Gets detailed information about a specific service. |
+| Actions | Post triggers a new collect on a specific device, Post triggers a new discovery on a specific device, Post sends a reinitialize km command, Post removes a specific instance from the monitoring environment, Post resets the error count parameter |
+| Applications | Gets summarized information about all monitored applications, Gets detailed information for a specific application |
+| Devices | Gets the monitors for a specific device, Gets summarized information about all monitored devices, Gets overall information for all devices, Gets detailed information about a specific device, Gets detailed information about an agent, Gets a list of all the devices monitored by an agent, Gets data history for a parameter of a specific device over a given period, Gets the energy usage for a specific device and a given period, Gets the heating margin values for each monitored device when available, Get searches devices by name model manufacturer or serial number |
+| Groups | Gets all group summaries, Gets detailed information about a specific group, Put updates the values of the energy footprint parameter for a specific group |
+| Historical Data | Gets historical data for a specific group application or service |
+| Services | Gets summarized information about all monitored services, Gets detailed information about a specific service |
 
 ---
 
